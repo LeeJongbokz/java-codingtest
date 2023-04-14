@@ -1,3 +1,12 @@
+// 제목: N과 M(1) 
+
+// 1sol
+
+// 왜 맞았는가?
+// 1) 백트레킹을 적용했다.
+// 2) 중복된 것을 제거하기 위해서, boolean check 배열을 적용했다.
+// 3) boolean check 배열을 true, false로 바꾸면서, 중복 검사를 진행했다. 
+
 import java.util.*; 
 
 public class Main {
