@@ -1,3 +1,12 @@
+// 제목: N과 M(2) 
+
+// 1sol
+
+// 왜 맞았는가?
+// 1) 백트레킹을 적용했다.
+// 2) int lastNum이라는 변수를 도입해서, 오름차순을 만들어냈다.
+
+
 import java.util.*; 
 
 public class Main {
