@@ -1,3 +1,13 @@
+// 제목: 카드
+// 2sol
+
+// 왜 맞았는가?
+// 1) HashMap은 Key의 입력 순서를 보장하지 않는다.
+// -> 하지만 TreeMap은 Key를 정렬한 상태로 저장하므로, 이 문제의 경우는 TreeMap을 사용하는 것이 좋다
+// 2) TreeMap에 입력한 후에, value를 기준으로 한 번 내림차순 정렬을 해주면 된다
+// 3) Long 자료형을 사용해야 한다는 점에 유의해야 한다. 값의 범위 때문에 
+// 4) 내림차순 정렬 식을 외워놓아야 할 수 있다. 검색이 안되는 경우를 대비해서. 
+
 import java.util.*; 
 import java.util.Map;
 import java.util.Map.Entry;
