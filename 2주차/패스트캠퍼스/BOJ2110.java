@@ -1,3 +1,11 @@
+// 1sol
+
+// 1. 왜 맞았는가?
+// -> start와 end라는 변수를 설정해줬다
+// -> start < end인 경우와, start>=N+1인 경우를 나눠서 break를 해줬다.
+// -> sum >= S인 경우에, ans>len일 때, ans를 업데이트했다.
+// -> sum < S 인경우는 ,start++을 하고, len++을 해줬다. 
+
 import java.util.*; 
 
 public class Main {
