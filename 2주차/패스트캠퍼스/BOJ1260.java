@@ -1,3 +1,13 @@
+// 1sol
+
+// 왜 맞았는가?
+-> 1) DFS, BFS 개념을 잘 적용했다
+-> 2) ArrayList 배열을 잘 만들어줬다
+-> 3) ArrayList 배열을 정렬해줬다
+-> 4) ArrayList 배열에 값을 넣을 때, 양쪽으로 다 넣어줬다.
+-> 5) visited 배열을 잘 활용해줬다. 
+
+
 import java.util.*; 
 
 public class Main {
