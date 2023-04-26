@@ -1,0 +1,4 @@
+// 1. 왜 맞았는가?
+// -> ORDER BY를 잘 사용했다. 
+
+SELECT ANIMAL_ID, NAME FROM ANIMAL_INS ORDER BY ANIMAL_ID;
