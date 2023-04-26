@@ -1,0 +1,4 @@
+// 1.왜 맞았는가?
+// -> ORDER BY 절과 DESC를 정확히 사용하였다. 
+
+SELECT NAME, DATETIME FROM ANIMAL_INS ORDER BY ANIMAL_ID DESC;
