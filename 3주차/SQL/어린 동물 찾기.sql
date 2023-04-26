@@ -1,0 +1,5 @@
+// 왜 맞았는가?
+// 1. WHERE절 이후에 ORDER BY를 썼다.
+// 2. WHERE절을 쓸 때 !=를 잘 썼다. 
+
+SELECT ANIMAL_ID, NAME FROM ANIMAL_INS WHERE INTAKE_CONDITION != 'AGED' ORDER BY ANIMAL_ID; 
