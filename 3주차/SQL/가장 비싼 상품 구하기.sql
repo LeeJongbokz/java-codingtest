@@ -1,0 +1,5 @@
+// 1. 왜 맞았는가?
+// -> 마찬가지로, 서브쿼리를 사용하면 된다. 
+
+
+SELECT PRICE AS MAX_PRICE FROM PRODUCT WHERE PRICE = (SELECT MAX(PRICE) FROM PRODUCT);
