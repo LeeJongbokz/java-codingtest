@@ -1,3 +1,6 @@
+// 왜 맞았는가?
+// 1. 문제의 조건에 유의해서 3중 for문을 작성했다. 
+
 import java.util.*; 
 
 public class Main {
